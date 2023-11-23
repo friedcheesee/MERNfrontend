@@ -56,7 +56,7 @@ function Signup() {
     
     // Send a POST request to your backend
    // Send a POST request to your backend
-   fetch('https://bikeswalebackend.onrender.com//auth/signup', {
+   fetch('https://bikeswalebackend.onrender.com/auth/signup', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
