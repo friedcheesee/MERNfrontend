@@ -13,7 +13,7 @@ function SearchResultPage({ onSearch }) {
 
   const handleSearch = useCallback(async (query) => {
     try {
-      const response = await fetch(`https://bikeswalebackend.onrender.com//products/search?query=${query}`);
+      const response = await fetch(`https://bikeswalebackend.onrender.com/products/search?query=${query}`);
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }

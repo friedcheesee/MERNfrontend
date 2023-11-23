@@ -34,7 +34,7 @@ function Login() {
       password: formData.password,
     };
 
-    fetch('https://bikeswalebackend.onrender.com//auth/login', {
+    fetch('https://bikeswalebackend.onrender.com/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -18,7 +18,7 @@ const ProductView = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`https://bikeswalebackend.onrender.com//products/${productId}`);
+        const response = await axios.get(`https://bikeswalebackend.onrender.com/products/${productId}`);
         // setProduct(response.data.product);
         setProduct(response.data);
         console.log('ProductView.js: ', product);

@@ -11,7 +11,7 @@ export const CartProvider = ({ children }) => {
       const { authToken } = item;
 
       // Perform API call to add item to the server
-      const response = await fetch('https://bikeswalebackend.onrender.com//cart/add', {
+      const response = await fetch('https://bikeswalebackend.onrender.com/cart/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 const API_URL = 'https://bikeswalebackend.onrender.com/';
-
 export const fetchCartItems = async () => {
   try {
     const response = await axios.get(`${API_URL}/cart`);
