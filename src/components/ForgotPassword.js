@@ -33,7 +33,7 @@ function ForgotPassword() {
       email: formData.email,
     };
 
-    axios.post('http://localhost:5555/auth/forgot-password', forgotPasswordData)
+    axios.post('https://bikeswalebackend.onrender.com//auth/forgot-password', forgotPasswordData)
     .then((response) => {
       const data = response.data;
       setIsLoading(false);

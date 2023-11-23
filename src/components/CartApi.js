@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5555';
+const API_URL = 'https://bikeswalebackend.onrender.com/';
 
 export const fetchCartItems = async () => {
   try {

@@ -37,9 +37,9 @@ const AddBike = () => {
     try {
       // Make an API call to add a new bike using the formData
       // NEW
-      // const response = await axios.post(`http://localhost:5555/products/add-${formData.category.toLowerCase()}`, formData);
-      const response = await axios.post(`http://localhost:5555/products/add-product/${formData.category.toLowerCase()}`, formData);
-      // const response = await axios.post('http://localhost:5555/products/add-bike', formData);
+      // const response = await axios.post(`https://bikeswalebackend.onrender.com//products/add-${formData.category.toLowerCase()}`, formData);
+      const response = await axios.post(`https://bikeswalebackend.onrender.com/products/add-product/${formData.category.toLowerCase()}`, formData);
+      // const response = await axios.post('https://bikeswalebackend.onrender.com//products/add-bike', formData);
       // NEW
       setStatus('Product added successfully');
       toast.success('Product added successfully!');

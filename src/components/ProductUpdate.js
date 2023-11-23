@@ -14,7 +14,7 @@ const ProductUpdate = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://localhost:5555/products/${productId}`);
+        const response = await axios.get(`https://bikeswalebackend.onrender.com//products/${productId}`);
         setProduct(response.data);
       } catch (error) {
         console.error('Error fetching product:', error);
@@ -48,7 +48,7 @@ const ProductUpdate = () => {
         ...updateFields, // Include other fields you want to update
       };
 
-      await axios.put(`http://localhost:5555/products/${productId}/update`, updateData);
+      await axios.put(`https://bikeswalebackend.onrender.com//products/${productId}/update`, updateData);
       console.log('Product Updated successfully');
       setStatus('Product updated successfully');
       toast.success('Product updated successfully!');

@@ -10,7 +10,7 @@ function ProductTilesView() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch(`http://localhost:5555/products/collection/${category}`);
+        const response = await fetch(`https://bikeswalebackend.onrender.com//products/collection/${category}`);
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
