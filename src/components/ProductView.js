@@ -90,7 +90,7 @@ const ProductView = () => {
               </div>
               <div>
 
-                <h3>Price: ${product.price}</h3>
+                <h3>Price: {product.price} Lakhs</h3>
 
                 <p className="discount" >10% Off!</p>
                 <s style={{ color: 'grey' }}>MRP: {product.price + product.price / 10} Lakhs</s> Inclusive of all taxes.
