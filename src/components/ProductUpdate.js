@@ -55,7 +55,7 @@ const ProductUpdate = () => {
     } catch (error) {
       console.error('Error updating product:', error);
       setStatus('Error updating product');
-      toast.success('Error updating product');
+      toast.error('Error updating product');
     }
   };
 

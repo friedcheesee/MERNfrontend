@@ -48,7 +48,7 @@ function SearchResultPage({ onSearch }) {
       <Container className="d-flex justify-content-center align-items-center">
         <div style={{ marginBottom: '50px', marginTop: '20px'}}>
           <h2 className='pt-4' style={{paddingBottom: '20px' }}>Search Results</h2>
-          <Row xs={1} md={2} lg={2} className="g-4">
+          <Row xs={1} md={2} lg={3} className="g-4">
             {searchResults.map((result) => (
               <Col key={result._id}>
                 <Card style={{ height: '100%', backgroundColor: 'black', color: 'white', border: '15px solid black' }}>
