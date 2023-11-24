@@ -24,17 +24,17 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="nav-link" to="/bikes">
+                                <Link className="nav-link" to="/products/collection/bikes">
                                     Bikes
                                 </Link>
                             </li>
                             <li>
-                                <Link className="nav-link" to="/scooters">
+                                <Link className="nav-link" to="/products/collection/scooters">
                                     Scooters
                                 </Link>
                             </li>
                             <li>
-                                <Link className="nav-link" to="/accessories">
+                                <Link className="nav-link" to="/products/collection/bikeaccessories">
                                     Accessories
                                 </Link>
                             </li>
