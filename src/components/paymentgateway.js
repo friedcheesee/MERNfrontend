@@ -15,7 +15,7 @@ const PaymentGateway = () => {
     return (
         <div>
         <Nav />
-      <div className="container mt-5 mb-5" style={{ maxWidth: '800px' }}>
+      <div className="container mt-5 mb-10" style={{ maxWidth: '800px' }}>
         <div className="card text-center" /*style={{ boxShadow: '5px 5px 10px rgba(0, 0, 0, 0.15)' }}*/>
           <div className="card-body" style={{ backgroundColor:  'rgb(27, 27, 27)' , color: 'white'}}>
             <h5 className="card-title">How would you like to pay?</h5>
