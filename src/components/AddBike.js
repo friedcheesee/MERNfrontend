@@ -70,7 +70,7 @@ const AddBike = () => {
           <option value="bike">Bike</option>
           <option value="scooters">Scooters</option>
           <option value="superbikes">Superbikes</option>
-          {/* <option value="usedbikes">Used Bikes</option> */}
+          <option value="bikeaccessories">bikeaccessories</option>
         </select>
       </div>
 
