@@ -37,7 +37,7 @@ function ProductTilesView() {
                     <Card.Img variant="top" src={product.imageUrl} style={{ objectFit: 'inherit', height: '60%', minHeight: '220px' }}/>
                     <Card.Body>
                       <Card.Title>{product.name}</Card.Title>
-                      <Card.Text>Cost: {product.price} Lakhs</Card.Text>
+                      <Card.Text>Cost: $ {product.price} </Card.Text>
                       <Button variant = 'dark' size='md' style={{ backgroundColor: 'red', color: 'white' }}>View Product</Button>
                     </Card.Body>
                   </Link>
